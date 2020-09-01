@@ -13,6 +13,12 @@
 		0310580E24FE680300FBCB24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0310580C24FE680300FBCB24 /* Main.storyboard */; };
 		0310581024FE680500FBCB24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0310580F24FE680500FBCB24 /* Assets.xcassets */; };
 		0310581324FE680500FBCB24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0310581124FE680500FBCB24 /* LaunchScreen.storyboard */; };
+		0310581B24FE69A300FBCB24 /* DemoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0310581A24FE69A300FBCB24 /* DemoData.swift */; };
+		0310581E24FE69D500FBCB24 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0310581D24FE69D500FBCB24 /* CardView.swift */; };
+		0310582024FE69DC00FBCB24 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0310581F24FE69DC00FBCB24 /* RoundedButton.swift */; };
+		0310582224FE69E500FBCB24 /* ShadowCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0310582124FE69E500FBCB24 /* ShadowCardView.swift */; };
+		0310582524FE6E5000FBCB24 /* LoginRegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0310582324FE6E5000FBCB24 /* LoginRegisterVC.swift */; };
+		0310582624FE6E5000FBCB24 /* LoginRegisterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0310582424FE6E5000FBCB24 /* LoginRegisterVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		0310580F24FE680500FBCB24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0310581224FE680500FBCB24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0310581424FE680500FBCB24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0310581A24FE69A300FBCB24 /* DemoData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoData.swift; sourceTree = "<group>"; };
+		0310581D24FE69D500FBCB24 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		0310581F24FE69DC00FBCB24 /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		0310582124FE69E500FBCB24 /* ShadowCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowCardView.swift; sourceTree = "<group>"; };
+		0310582324FE6E5000FBCB24 /* LoginRegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRegisterVC.swift; sourceTree = "<group>"; };
+		0310582424FE6E5000FBCB24 /* LoginRegisterVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginRegisterVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +68,37 @@
 		0310580524FE680300FBCB24 /* trippy */ = {
 			isa = PBXGroup;
 			children = (
+				0310582724FE6E6700FBCB24 /* LoginRegister */,
+				0310581C24FE69B400FBCB24 /* Custom Views */,
 				0310580624FE680300FBCB24 /* AppDelegate.swift */,
 				0310580824FE680300FBCB24 /* SceneDelegate.swift */,
 				0310580A24FE680300FBCB24 /* ViewController.swift */,
+				0310581A24FE69A300FBCB24 /* DemoData.swift */,
 				0310580C24FE680300FBCB24 /* Main.storyboard */,
 				0310580F24FE680500FBCB24 /* Assets.xcassets */,
 				0310581124FE680500FBCB24 /* LaunchScreen.storyboard */,
 				0310581424FE680500FBCB24 /* Info.plist */,
 			);
 			path = trippy;
+			sourceTree = "<group>";
+		};
+		0310581C24FE69B400FBCB24 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				0310581D24FE69D500FBCB24 /* CardView.swift */,
+				0310581F24FE69DC00FBCB24 /* RoundedButton.swift */,
+				0310582124FE69E500FBCB24 /* ShadowCardView.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		0310582724FE6E6700FBCB24 /* LoginRegister */ = {
+			isa = PBXGroup;
+			children = (
+				0310582324FE6E5000FBCB24 /* LoginRegisterVC.swift */,
+				0310582424FE6E5000FBCB24 /* LoginRegisterVC.xib */,
+			);
+			path = LoginRegister;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +161,7 @@
 				0310581324FE680500FBCB24 /* LaunchScreen.storyboard in Resources */,
 				0310581024FE680500FBCB24 /* Assets.xcassets in Resources */,
 				0310580E24FE680300FBCB24 /* Main.storyboard in Resources */,
+				0310582624FE6E5000FBCB24 /* LoginRegisterVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,9 +172,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0310581B24FE69A300FBCB24 /* DemoData.swift in Sources */,
+				0310582024FE69DC00FBCB24 /* RoundedButton.swift in Sources */,
 				0310580B24FE680300FBCB24 /* ViewController.swift in Sources */,
 				0310580724FE680300FBCB24 /* AppDelegate.swift in Sources */,
+				0310582224FE69E500FBCB24 /* ShadowCardView.swift in Sources */,
 				0310580924FE680300FBCB24 /* SceneDelegate.swift in Sources */,
+				0310581E24FE69D500FBCB24 /* CardView.swift in Sources */,
+				0310582524FE6E5000FBCB24 /* LoginRegisterVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
