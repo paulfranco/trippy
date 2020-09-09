@@ -25,6 +25,7 @@
 		0335453F2508FECD006B1CAE /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 0335453E2508FECD006B1CAE /* SDWebImage */; };
 		0335454225090EB9006B1CAE /* Int+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0335454125090EB9006B1CAE /* Int+Ext.swift */; };
 		0335454425091097006B1CAE /* VacationDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0335454325091097006B1CAE /* VacationDetailsVC.swift */; };
+		0335454625092ECA006B1CAE /* ThumbnailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0335454525092ECA006B1CAE /* ThumbnailCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		0335453A2508F8D1006B1CAE /* VacationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VacationCell.xib; sourceTree = "<group>"; };
 		0335454125090EB9006B1CAE /* Int+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Ext.swift"; sourceTree = "<group>"; };
 		0335454325091097006B1CAE /* VacationDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacationDetailsVC.swift; sourceTree = "<group>"; };
+		0335454525092ECA006B1CAE /* ThumbnailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbnailCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 			children = (
 				033545392508F8D1006B1CAE /* VacationCell.swift */,
 				0335453A2508F8D1006B1CAE /* VacationCell.xib */,
+				0335454525092ECA006B1CAE /* ThumbnailCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -229,6 +232,7 @@
 				0310582224FE69E500FBCB24 /* ShadowCardView.swift in Sources */,
 				0335453B2508F8D1006B1CAE /* VacationCell.swift in Sources */,
 				0310580924FE680300FBCB24 /* SceneDelegate.swift in Sources */,
+				0335454625092ECA006B1CAE /* ThumbnailCell.swift in Sources */,
 				0310581E24FE69D500FBCB24 /* CardView.swift in Sources */,
 				0335454425091097006B1CAE /* VacationDetailsVC.swift in Sources */,
 				0310582524FE6E5000FBCB24 /* LoginRegisterVC.swift in Sources */,
