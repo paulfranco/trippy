@@ -9,12 +9,17 @@ import UIKit
 
 class VacationDetailsVC: UIViewController {
     
+    @IBOutlet weak var activitiesLabel: UILabel!
+    @IBOutlet weak var descriptionLabel: UILabel!
+    
     var vacation: Vacation!
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         title = vacation.title
+        activitiesLabel.text = vacation.activities
+        descriptionLabel.text = vacation.description
     }
     
 
