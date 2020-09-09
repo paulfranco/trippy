@@ -5,6 +5,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17105"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -40,11 +41,28 @@
                     </navigationItem>
                     <connections>
                         <outlet property="tableView" destination="Vq9-Pk-huf" id="jZU-wZ-Dg9"/>
+                        <segue destination="hWk-9R-qdG" kind="show" identifier="ToVacationDetails" id="SPc-F2-owB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="829" y="139"/>
+        </scene>
+        <!--Vacation DetailsVC-->
+        <scene sceneID="lg4-ZE-lbs">
+            <objects>
+                <viewController id="hWk-9R-qdG" customClass="VacationDetailsVC" customModule="trippy" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Lcc-kZ-tlV">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="0PI-Wd-3eB"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ibi-8d-gki"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kJy-cf-38N" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1504" y="144"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="gV2-Fe-hoa">
@@ -73,5 +91,8 @@
         <namedColor name="btn_light_blue">
             <color red="0.37999999523162842" green="0.65100002288818359" blue="0.85900002717971802" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
     </resources>
 </document>

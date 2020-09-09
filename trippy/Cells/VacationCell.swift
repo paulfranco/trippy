@@ -25,7 +25,7 @@ class VacationCell: UITableViewCell {
 
     func configureCell(vacation: Vacation) {
         titleLabel.text = vacation.title
-        priceLabel.text = "\(vacation.price)"
+        priceLabel.text = vacation.price.formatToCurrencyString()
         
         let imageUrl = vacation.images[0]
         if let url = URL(string: imageUrl) {

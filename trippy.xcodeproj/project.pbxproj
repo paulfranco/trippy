@@ -23,6 +23,8 @@
 		0335453B2508F8D1006B1CAE /* VacationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033545392508F8D1006B1CAE /* VacationCell.swift */; };
 		0335453C2508F8D1006B1CAE /* VacationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0335453A2508F8D1006B1CAE /* VacationCell.xib */; };
 		0335453F2508FECD006B1CAE /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 0335453E2508FECD006B1CAE /* SDWebImage */; };
+		0335454225090EB9006B1CAE /* Int+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0335454125090EB9006B1CAE /* Int+Ext.swift */; };
+		0335454425091097006B1CAE /* VacationDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0335454325091097006B1CAE /* VacationDetailsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +45,8 @@
 		033545362508F5DF006B1CAE /* Vacation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vacation.swift; sourceTree = "<group>"; };
 		033545392508F8D1006B1CAE /* VacationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacationCell.swift; sourceTree = "<group>"; };
 		0335453A2508F8D1006B1CAE /* VacationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VacationCell.xib; sourceTree = "<group>"; };
+		0335454125090EB9006B1CAE /* Int+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Ext.swift"; sourceTree = "<group>"; };
+		0335454325091097006B1CAE /* VacationDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacationDetailsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,14 +80,16 @@
 		0310580524FE680300FBCB24 /* trippy */ = {
 			isa = PBXGroup;
 			children = (
+				0335454025090E98006B1CAE /* Extensions */,
 				033545382508F8AC006B1CAE /* Cells */,
 				033545352508F5C0006B1CAE /* Models */,
 				0310582724FE6E6700FBCB24 /* LoginRegister */,
 				0310581C24FE69B400FBCB24 /* Custom Views */,
+				0310580A24FE680300FBCB24 /* HomeVC.swift */,
+				0335454325091097006B1CAE /* VacationDetailsVC.swift */,
+				0310581A24FE69A300FBCB24 /* DemoData.swift */,
 				0310580624FE680300FBCB24 /* AppDelegate.swift */,
 				0310580824FE680300FBCB24 /* SceneDelegate.swift */,
-				0310580A24FE680300FBCB24 /* HomeVC.swift */,
-				0310581A24FE69A300FBCB24 /* DemoData.swift */,
 				0310580C24FE680300FBCB24 /* Main.storyboard */,
 				0310580F24FE680500FBCB24 /* Assets.xcassets */,
 				0310581124FE680500FBCB24 /* LaunchScreen.storyboard */,
@@ -126,6 +132,14 @@
 				0335453A2508F8D1006B1CAE /* VacationCell.xib */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		0335454025090E98006B1CAE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0335454125090EB9006B1CAE /* Int+Ext.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,10 +225,12 @@
 				033545372508F5DF006B1CAE /* Vacation.swift in Sources */,
 				0310580B24FE680300FBCB24 /* HomeVC.swift in Sources */,
 				0310580724FE680300FBCB24 /* AppDelegate.swift in Sources */,
+				0335454225090EB9006B1CAE /* Int+Ext.swift in Sources */,
 				0310582224FE69E500FBCB24 /* ShadowCardView.swift in Sources */,
 				0335453B2508F8D1006B1CAE /* VacationCell.swift in Sources */,
 				0310580924FE680300FBCB24 /* SceneDelegate.swift in Sources */,
 				0310581E24FE69D500FBCB24 /* CardView.swift in Sources */,
+				0335454425091097006B1CAE /* VacationDetailsVC.swift in Sources */,
 				0310582524FE6E5000FBCB24 /* LoginRegisterVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
