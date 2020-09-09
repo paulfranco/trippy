@@ -62,6 +62,9 @@
                                             <real key="value" value="5"/>
                                         </userDefinedRuntimeAttribute>
                                     </userDefinedRuntimeAttributes>
+                                    <connections>
+                                        <action selector="loginButtonClicked:" destination="-1" eventType="touchUpInside" id="7R2-7e-V8m"/>
+                                    </connections>
                                 </button>
                             </subviews>
                             <constraints>
@@ -154,6 +157,9 @@
                                             <real key="value" value="5"/>
                                         </userDefinedRuntimeAttribute>
                                     </userDefinedRuntimeAttributes>
+                                    <connections>
+                                        <action selector="registerButtonClicked:" destination="-1" eventType="touchUpInside" id="JvI-9W-nHh"/>
+                                    </connections>
                                 </button>
                             </subviews>
                             <constraints>

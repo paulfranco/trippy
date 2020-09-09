@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		0310580724FE680300FBCB24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0310580624FE680300FBCB24 /* AppDelegate.swift */; };
 		0310580924FE680300FBCB24 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0310580824FE680300FBCB24 /* SceneDelegate.swift */; };
-		0310580B24FE680300FBCB24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0310580A24FE680300FBCB24 /* ViewController.swift */; };
+		0310580B24FE680300FBCB24 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0310580A24FE680300FBCB24 /* HomeVC.swift */; };
 		0310580E24FE680300FBCB24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0310580C24FE680300FBCB24 /* Main.storyboard */; };
 		0310581024FE680500FBCB24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0310580F24FE680500FBCB24 /* Assets.xcassets */; };
 		0310581324FE680500FBCB24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0310581124FE680500FBCB24 /* LaunchScreen.storyboard */; };
@@ -25,7 +25,7 @@
 		0310580324FE680300FBCB24 /* trippy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = trippy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0310580624FE680300FBCB24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0310580824FE680300FBCB24 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0310580A24FE680300FBCB24 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0310580A24FE680300FBCB24 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		0310580D24FE680300FBCB24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0310580F24FE680500FBCB24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0310581224FE680500FBCB24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -72,7 +72,7 @@
 				0310581C24FE69B400FBCB24 /* Custom Views */,
 				0310580624FE680300FBCB24 /* AppDelegate.swift */,
 				0310580824FE680300FBCB24 /* SceneDelegate.swift */,
-				0310580A24FE680300FBCB24 /* ViewController.swift */,
+				0310580A24FE680300FBCB24 /* HomeVC.swift */,
 				0310581A24FE69A300FBCB24 /* DemoData.swift */,
 				0310580C24FE680300FBCB24 /* Main.storyboard */,
 				0310580F24FE680500FBCB24 /* Assets.xcassets */,
@@ -174,7 +174,7 @@
 			files = (
 				0310581B24FE69A300FBCB24 /* DemoData.swift in Sources */,
 				0310582024FE69DC00FBCB24 /* RoundedButton.swift in Sources */,
-				0310580B24FE680300FBCB24 /* ViewController.swift in Sources */,
+				0310580B24FE680300FBCB24 /* HomeVC.swift in Sources */,
 				0310580724FE680300FBCB24 /* AppDelegate.swift in Sources */,
 				0310582224FE69E500FBCB24 /* ShadowCardView.swift in Sources */,
 				0310580924FE680300FBCB24 /* SceneDelegate.swift in Sources */,
