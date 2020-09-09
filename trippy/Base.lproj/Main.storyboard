@@ -15,8 +15,20 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Vq9-Pk-huf">
+                                <rect key="frame" x="0.0" y="88" width="414" height="808"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" name="bg_light_blue"/>
+                        <constraints>
+                            <constraint firstItem="Vq9-Pk-huf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="6cU-t9-gjc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Vq9-Pk-huf" secondAttribute="trailing" id="dRS-Mj-NQi"/>
+                            <constraint firstItem="Vq9-Pk-huf" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="tTY-cd-rV9"/>
+                            <constraint firstAttribute="bottom" secondItem="Vq9-Pk-huf" secondAttribute="bottom" id="zOp-oM-mMe"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="7Em-Nw-ntT">
                         <barButtonItem key="rightBarButtonItem" title="Item" image="person.fill" catalog="system" id="Igh-CA-oHa">

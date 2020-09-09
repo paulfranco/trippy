@@ -19,6 +19,9 @@
 		0310582224FE69E500FBCB24 /* ShadowCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0310582124FE69E500FBCB24 /* ShadowCardView.swift */; };
 		0310582524FE6E5000FBCB24 /* LoginRegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0310582324FE6E5000FBCB24 /* LoginRegisterVC.swift */; };
 		0310582624FE6E5000FBCB24 /* LoginRegisterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0310582424FE6E5000FBCB24 /* LoginRegisterVC.xib */; };
+		033545372508F5DF006B1CAE /* Vacation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033545362508F5DF006B1CAE /* Vacation.swift */; };
+		0335453B2508F8D1006B1CAE /* VacationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033545392508F8D1006B1CAE /* VacationCell.swift */; };
+		0335453C2508F8D1006B1CAE /* VacationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0335453A2508F8D1006B1CAE /* VacationCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +39,9 @@
 		0310582124FE69E500FBCB24 /* ShadowCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowCardView.swift; sourceTree = "<group>"; };
 		0310582324FE6E5000FBCB24 /* LoginRegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRegisterVC.swift; sourceTree = "<group>"; };
 		0310582424FE6E5000FBCB24 /* LoginRegisterVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginRegisterVC.xib; sourceTree = "<group>"; };
+		033545362508F5DF006B1CAE /* Vacation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vacation.swift; sourceTree = "<group>"; };
+		033545392508F8D1006B1CAE /* VacationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacationCell.swift; sourceTree = "<group>"; };
+		0335453A2508F8D1006B1CAE /* VacationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VacationCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +74,8 @@
 		0310580524FE680300FBCB24 /* trippy */ = {
 			isa = PBXGroup;
 			children = (
+				033545382508F8AC006B1CAE /* Cells */,
+				033545352508F5C0006B1CAE /* Models */,
 				0310582724FE6E6700FBCB24 /* LoginRegister */,
 				0310581C24FE69B400FBCB24 /* Custom Views */,
 				0310580624FE680300FBCB24 /* AppDelegate.swift */,
@@ -99,6 +107,23 @@
 				0310582424FE6E5000FBCB24 /* LoginRegisterVC.xib */,
 			);
 			path = LoginRegister;
+			sourceTree = "<group>";
+		};
+		033545352508F5C0006B1CAE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				033545362508F5DF006B1CAE /* Vacation.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		033545382508F8AC006B1CAE /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				033545392508F8D1006B1CAE /* VacationCell.swift */,
+				0335453A2508F8D1006B1CAE /* VacationCell.xib */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +186,7 @@
 				0310581324FE680500FBCB24 /* LaunchScreen.storyboard in Resources */,
 				0310581024FE680500FBCB24 /* Assets.xcassets in Resources */,
 				0310580E24FE680300FBCB24 /* Main.storyboard in Resources */,
+				0335453C2508F8D1006B1CAE /* VacationCell.xib in Resources */,
 				0310582624FE6E5000FBCB24 /* LoginRegisterVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -174,9 +200,11 @@
 			files = (
 				0310581B24FE69A300FBCB24 /* DemoData.swift in Sources */,
 				0310582024FE69DC00FBCB24 /* RoundedButton.swift in Sources */,
+				033545372508F5DF006B1CAE /* Vacation.swift in Sources */,
 				0310580B24FE680300FBCB24 /* HomeVC.swift in Sources */,
 				0310580724FE680300FBCB24 /* AppDelegate.swift in Sources */,
 				0310582224FE69E500FBCB24 /* ShadowCardView.swift in Sources */,
+				0335453B2508F8D1006B1CAE /* VacationCell.swift in Sources */,
 				0310580924FE680300FBCB24 /* SceneDelegate.swift in Sources */,
 				0310581E24FE69D500FBCB24 /* CardView.swift in Sources */,
 				0310582524FE6E5000FBCB24 /* LoginRegisterVC.swift in Sources */,
