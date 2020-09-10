@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		030D74062509F6FB00F065F7 /* CheckoutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030D74052509F6FB00F065F7 /* CheckoutVC.swift */; };
 		0310580724FE680300FBCB24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0310580624FE680300FBCB24 /* AppDelegate.swift */; };
 		0310580924FE680300FBCB24 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0310580824FE680300FBCB24 /* SceneDelegate.swift */; };
 		0310580B24FE680300FBCB24 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0310580A24FE680300FBCB24 /* HomeVC.swift */; };
@@ -29,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		030D74052509F6FB00F065F7 /* CheckoutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutVC.swift; sourceTree = "<group>"; };
 		0310580324FE680300FBCB24 /* trippy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = trippy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0310580624FE680300FBCB24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0310580824FE680300FBCB24 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 				0310580F24FE680500FBCB24 /* Assets.xcassets */,
 				0310581124FE680500FBCB24 /* LaunchScreen.storyboard */,
 				0310581424FE680500FBCB24 /* Info.plist */,
+				030D74052509F6FB00F065F7 /* CheckoutVC.swift */,
 			);
 			path = trippy;
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				030D74062509F6FB00F065F7 /* CheckoutVC.swift in Sources */,
 				0310581B24FE69A300FBCB24 /* DemoData.swift in Sources */,
 				0310582024FE69DC00FBCB24 /* RoundedButton.swift in Sources */,
 				033545372508F5DF006B1CAE /* Vacation.swift in Sources */,
