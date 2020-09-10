@@ -482,7 +482,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="xdJ-Tx-OV0">
                                         <rect key="frame" x="12" y="45" width="366" height="103"/>
                                         <subviews>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="chG-94-uk2" userLabel="Select Card View">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="chG-94-uk2" userLabel="Select Card View" customClass="CardView" customModule="trippy" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="179" height="103"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="creditcard" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="41g-oD-dlz">
@@ -508,8 +508,13 @@
                                                     <constraint firstAttribute="trailing" secondItem="yLU-tQ-BeY" secondAttribute="trailing" constant="6" id="tTM-3H-e2E"/>
                                                     <constraint firstItem="41g-oD-dlz" firstAttribute="top" secondItem="chG-94-uk2" secondAttribute="top" constant="12" id="xbH-s3-AYs"/>
                                                 </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dsr-RZ-OZb" userLabel="Select Bank View">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dsr-RZ-OZb" userLabel="Select Bank View" customClass="CardView" customModule="trippy" customModuleProvider="target">
                                                 <rect key="frame" x="187" y="0.0" width="179" height="103"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dollarsign.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="7Mo-k6-L11">
@@ -535,6 +540,11 @@
                                                     <constraint firstItem="7Mo-k6-L11" firstAttribute="centerX" secondItem="dsr-RZ-OZb" secondAttribute="centerX" id="hMD-rS-g69"/>
                                                     <constraint firstItem="ytW-33-2cV" firstAttribute="centerX" secondItem="dsr-RZ-OZb" secondAttribute="centerX" id="rjJ-35-FSe"/>
                                                 </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
                                             </view>
                                         </subviews>
                                     </stackView>

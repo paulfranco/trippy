@@ -91,6 +91,7 @@
 				0310581C24FE69B400FBCB24 /* Custom Views */,
 				0310580A24FE680300FBCB24 /* HomeVC.swift */,
 				0335454325091097006B1CAE /* VacationDetailsVC.swift */,
+				030D74052509F6FB00F065F7 /* CheckoutVC.swift */,
 				0310581A24FE69A300FBCB24 /* DemoData.swift */,
 				0310580624FE680300FBCB24 /* AppDelegate.swift */,
 				0310580824FE680300FBCB24 /* SceneDelegate.swift */,
@@ -98,7 +99,6 @@
 				0310580F24FE680500FBCB24 /* Assets.xcassets */,
 				0310581124FE680500FBCB24 /* LaunchScreen.storyboard */,
 				0310581424FE680500FBCB24 /* Info.plist */,
-				030D74052509F6FB00F065F7 /* CheckoutVC.swift */,
 			);
 			path = trippy;
 			sourceTree = "<group>";

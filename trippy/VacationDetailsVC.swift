@@ -81,4 +81,10 @@ extension VacationDetailsVC: UICollectionViewDelegate, UICollectionViewDataSourc
         return CGSize(width: 120, height: 120)
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let checkoutVC = segue.destination as? CheckoutVC {
+            checkoutVC.vacation = self.vacation
+        }
+    }
+    
 }
