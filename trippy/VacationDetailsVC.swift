@@ -23,37 +23,39 @@ class VacationDetailsVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        setupUI()
+        setMainImage(index: 0)
+        setupCollectionView()
+    }
+    
+    func setupCollectionView() {
+        collectionView.delegate = self
+        collectionView.dataSource = self    }
+    
+    func setMainImage(index: Int) {
+        let imageUrl = vacation.images[index]
+        if let url = URL(string: imageUrl) {
+            mainImage.layer.cornerRadius = 10
+            mainImage.sd_imageIndicator = SDWebImageActivityIndicator.medium
+            mainImage.sd_setImage(with: url, placeholderImage: UIImage(named: ImageName.placeholderImage))
+        }
+        
+    }
+    
+    func setupUI() {
         title = vacation.title
         activitiesLabel.text = vacation.activities
         descriptionLabel.text = vacation.description
         
         priceLabel.text = "All inclusive price: " + vacation.price.formatToCurrencyString()
         numberOfNights.text = "\(vacation.numberOfNights) night accomodations"
-        airfareLabel.text = vacation.airfare
-        
-        
-        let imageUrl = vacation.images[0]
-        if let url = URL(string: imageUrl) {
-            mainImage.layer.cornerRadius = 10
-            mainImage.sd_imageIndicator = SDWebImageActivityIndicator.medium
-            mainImage.sd_setImage(with: url, placeholderImage: UIImage(named: "background-beach-alpha"))
-        }
-        
-        collectionView.delegate = self
-        collectionView.dataSource = self
-    }
+        airfareLabel.text = vacation.airfare    }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+        if let checkoutVC = segue.destination as? CheckoutVC {
+            checkoutVC.vacation = self.vacation
+        }
     }
-    */
 
 }
 
@@ -63,28 +65,19 @@ extension VacationDetailsVC: UICollectionViewDelegate, UICollectionViewDataSourc
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "ThumbnailCell", for: indexPath) as! ThumbnailCell
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: CellId.ThumbnailCell, for: indexPath) as! ThumbnailCell
         let url = vacation.images[indexPath.row]
         cell.configureCell(url: url)
         return cell
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        let imageUrl = vacation.images[indexPath.item]
-        if let url = URL(string: imageUrl) {
-            mainImage.layer.cornerRadius = 10
-            mainImage.sd_imageIndicator = SDWebImageActivityIndicator.medium
-            mainImage.sd_setImage(with: url, placeholderImage: UIImage(named: "background-beach-alpha"))
-        }    }
+        setMainImage(index: indexPath.item)
+        
+    }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         return CGSize(width: 120, height: 120)
-    }
-    
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if let checkoutVC = segue.destination as? CheckoutVC {
-            checkoutVC.vacation = self.vacation
-        }
     }
     
 }

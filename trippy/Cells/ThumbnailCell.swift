@@ -16,7 +16,7 @@ class ThumbnailCell: UICollectionViewCell {
         img.layer.cornerRadius = 5
         guard let url = URL(string: url) else { return }
         img.sd_imageIndicator = SDWebImageActivityIndicator.medium
-        img.sd_setImage(with: url, placeholderImage: UIImage(named: "background-beach-alpha"))
+        img.sd_setImage(with: url, placeholderImage: UIImage(named: ImageName.placeholderImage))
     }
     
 }

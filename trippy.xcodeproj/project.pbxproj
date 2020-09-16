@@ -27,6 +27,7 @@
 		0335454225090EB9006B1CAE /* Int+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0335454125090EB9006B1CAE /* Int+Ext.swift */; };
 		0335454425091097006B1CAE /* VacationDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0335454325091097006B1CAE /* VacationDetailsVC.swift */; };
 		0335454625092ECA006B1CAE /* ThumbnailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0335454525092ECA006B1CAE /* ThumbnailCell.swift */; };
+		03CD1CC125121C220086F40D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CD1CC025121C220086F40D /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		0335454125090EB9006B1CAE /* Int+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Ext.swift"; sourceTree = "<group>"; };
 		0335454325091097006B1CAE /* VacationDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacationDetailsVC.swift; sourceTree = "<group>"; };
 		0335454525092ECA006B1CAE /* ThumbnailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbnailCell.swift; sourceTree = "<group>"; };
+		03CD1CC025121C220086F40D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 				0310580F24FE680500FBCB24 /* Assets.xcassets */,
 				0310581124FE680500FBCB24 /* LaunchScreen.storyboard */,
 				0310581424FE680500FBCB24 /* Info.plist */,
+				03CD1CC025121C220086F40D /* Constants.swift */,
 			);
 			path = trippy;
 			sourceTree = "<group>";
@@ -231,6 +234,7 @@
 				0310582024FE69DC00FBCB24 /* RoundedButton.swift in Sources */,
 				033545372508F5DF006B1CAE /* Vacation.swift in Sources */,
 				0310580B24FE680300FBCB24 /* HomeVC.swift in Sources */,
+				03CD1CC125121C220086F40D /* Constants.swift in Sources */,
 				0310580724FE680300FBCB24 /* AppDelegate.swift in Sources */,
 				0335454225090EB9006B1CAE /* Int+Ext.swift in Sources */,
 				0310582224FE69E500FBCB24 /* ShadowCardView.swift in Sources */,
